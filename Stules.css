@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html class='h-100' lang='ru'>
+<head>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta charset='utf-8'>
+<meta content='IE=Edge' http-equiv='X-UA-Compatible'>
+<title>Правило близости</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="oLC3mlfPAmlBW-ToR5ovejWbL7XwyzPjjn8qYQ0UTn1PDviOBbM_d4sbEnAr6WtU9NQRUtxvHHR0l_nkoxJufg" />
+<meta name="csp-nonce" content="616d7e05" />
+<link rel="icon" type="image/x-icon" href="https://cdn2.hexlet.io/assets/favicon-9213ff1fc34b4e2da96c3b3eb582b3d10180b250e993141d7928d6aa1f5647c1.ico" />
+<meta content='b9d3902d34' name='verify-admitad'>
+
+<meta content='aa2vrdtq64dub8knuf83lwywit311w' name='facebook-domain-verification'>
+
+
+<link rel="stylesheet" href="https://cdn2.hexlet.io/assets/application-f977abbd8e04c709de691b44404e786a2fbd97d83f4a16f6bb9ae2dd6f1f47af.css" media="all" />
+
+<script nonce="616d7e05">
+//<![CDATA[
+if ('PerformanceObserver' in window) {
+    ;window.NREUM||(NREUM={});NREUM.init={privacy:{cookies_enabled:false},ajax:{deny_list:["bam.eu01.nr-data.net"]}};
+
+    ;NREUM.loader_config={accountID:"3811879",trustKey:"3811879",agentID:"535909239",licenseKey:"NRJS-1065fb09b1320dc2d82",applicationID:"535909239"};
+    ;NREUM.info={beacon:"bam.eu01.nr-data.net",errorBeacon:"bam.eu01.nr-data.net",licenseKey:"NRJS-1065fb09b1320dc2d82",applicationID:"535909239",sa:1};
+    ;(()=>{var e,t,r={9071:(e,t,r)=>{"use strict";r.d(t,{I:()=>n});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},6900:(e,t,r)=>{"use strict";let n;if(r.d(t,{H:()=>i}),r(2374).il){const e=document.createElement("div");e.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=e.getElementsByTagName("div").length}var i;i=4===n?6:3===n?7:2===n?8:1===n?9:0},6562:(e,t,r)=>{"use strict";r.d(t,{P_:()=>h,Mt:()=>v,C5:()=>d,DL:()=>w,OP:()=>B,lF:()=>V,Yu:()=>A,Dg:()=>p,CX:()=>l,GE:()=>y,sU:()=>M});var n={};r.r(n),r.d(n,{agent:()=>O,match:()=>_,version:()=>S});var i=r(6797),o=r(909),a=r(8610);class s{constructor(e,t){try{if(!e||"object"!=typeof e)return(0,a.Z)("New setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,a.Z)("Setting a Configurable requires a model to set its initial properties");Object.assign(this,t),Object.entries(e).forEach((e=>{let[t,r]=e;const n=(0,o.q)(t);n.length&&r&&"object"==typeof r&&n.forEach((e=>{e in r&&((0,a.Z)(`"${e}" is a protected attribute and can not be changed in feature ${t}.  It will have no effect.`),delete r[e])})),this[t]=r}))}catch(e){(0,a.Z)("An error occured while setting a Configurable",e)}}}const c={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},u={};function d(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!u[e])throw new Error(`Info for ${e} was never set`);return u[e]}function l(e,t){if(!e)throw new Error("All info objects require an agent identifier!");u[e]=new s(t,c),(0,i.Qy)(e,u[e],"info")}const f={allow_bfcache:!1,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0,harvestTimeSeconds:10},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},g={};function h(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!g[e])throw new Error(`Configuration for ${e} was never set`);return g[e]}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");g[e]=new s(t,f),(0,i.Qy)(e,g[e],"config")}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=h(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error(`LoaderConfig for ${e} was never set`);return b[e]}function y(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new s(t,m),(0,i.Qy)(e,b[e],"loader_config")}const A=(0,i.mF)().o;var x=r(6900),E=r(2053),O=null,S=null;if(navigator.userAgent){var D=navigator.userAgent,j=D.match(/Version\/(\S+)\s+Safari/);j&&-1===D.indexOf("Chrome")&&-1===D.indexOf("Chromium")&&(O="Safari",S=j[1])}function _(e,t){if(!O)return!1;if(e!==O)return!1;if(!t)return!0;if(!S)return!1;for(var r=S.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var k=r(5526),T=r(2374);const P="NRBA_SESSION_ID";function C(){if(!T.il)return null;try{let e;return null===(e=window.sessionStorage.getItem(P))&&(e=(0,k.ky)(16),window.sessionStorage.setItem(P,e)),e}catch(e){return null}}var I=T._A?.XMLHttpRequest,N=I&&I.prototype;const R={};function B(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error(`Runtime for ${e} was never set`);return R[e]}function M(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r;R[e]=new s(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},isolatedBacklog:!1,loaderType:void 0,maxBytes:6===x.H?2e3:3e4,offset:(0,E.yf)(),onerror:void 0,origin:""+T._A?.location,ptid:void 0,releaseIds:{},sessionId:1==v(r,"privacy.cookies_enabled")?C():null,xhrWrappable:I&&N&&N.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,R[e],"runtime")}function V(e){return function(e){try{const t=d(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},8226:(e,t,r)=>{"use strict";r.d(t,{q:()=>n});const n="1223.PROD"},9557:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:""};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=Array.from(s[e]);function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{"use strict";r.d(t,{ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(6562),s="nr@context";let c=(0,n.fP)();var u;function d(){}function l(){return new d}function f(){(u.backlog.api||u.backlog.feature)&&(u.aborted=!0,u.backlog={})}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},g={},h=!1;try{h=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var p={on:b,addEventListener:b,removeEventListener:w,emit:m,get:A,listeners:y,context:v,buffer:x,abort:f,aborted:!1,isBuffering:E,debugId:r,backlog:h?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=v(n),s=y(e),d=s.length,l=0;l<d;l++)s[l].apply(a,r);var f=O()[c[e]];return f&&f.push([p,e,r,a]),a}}function b(e,t){n[e]=y(e).concat(t)}function w(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function y(e){return n[e]||[]}function A(t){return g[t]=g[t]||e(p,t)}function x(e,t){var r=O();p.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function E(e){return!!O()[c[e]]}function O(){return p.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374),i=!1;try{var o=Object.defineProperty({},"passive",{get:function(){i=!0}});n._A?.addEventListener("testPassive",null,o),n._A?.removeEventListener("testPassive",null,o)}catch(e){}function a(e){return i?{passive:!0,capture:!!e}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];window.addEventListener(e,t,a(r))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];document.addEventListener(e,t,a(r))}},5526:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>i,ky:()=>o});var n=r(2374);function i(){var e=null,t=0,r=n._A?.crypto||n._A?.msCrypto;function i(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,a="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",s="",c=0;c<a.length;c++)s+="x"===(o=a[c])?i().toString(16):"y"===o?(o=3&i()|8).toString(16):o;return s}function o(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}},2053:(e,t,r)=>{"use strict";r.d(t,{nb:()=>c,os:()=>u,yf:()=>s,zO:()=>a});var n=r(7145),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function s(){return i}function c(e){o=e}function u(){return o}},7145:(e,t,r)=>{"use strict";r.d(t,{G:()=>n});const n=void 0!==r(2374)._A?.performance?.timing?.navigationStart},6625:(e,t,r)=>{"use strict";r.d(t,{s:()=>c,v:()=>u});var n=r(8283),i=r(9071),o=r(2053),a=r(7145),s=r(2374);let c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,s._A?.performance?.timing?.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},8283:(e,t,r)=>{"use strict";r.d(t,{B:()=>o,L:()=>a});var n=r(2053),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){const o=e.sharedContext.agentIdentifier;var a=i[o]?.[r],s=i[o]?.[n];void 0!==a&&void 0!==s&&e.store("measures",t,{value:s-a})}},9548:(e,t,r)=>{"use strict";r.d(t,{T:()=>i});var n=r(2374);const i={isFileProtocol:function(){let e=Boolean("file:"===(0,n.lW)()?.location?.protocol);e&&(i.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},8610:(e,t,r)=>{"use strict";function n(e,t){console&&console.warn&&"function"==typeof console.warn&&(console.warn(`New Relic: ${e}`),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{"use strict";r.d(t,{_A:()=>o,il:()=>n,lW:()=>a,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error("New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like `self` and `window`.")})();function a(){return o}},7022:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},9226:(e,t,r)=>{"use strict";r.d(t,{$c:()=>u,Ng:()=>d,RR:()=>c});var n=r(6562),i=r(9557),o=r(9548),a=r(8610),s={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"};class c extends i.w{constructor(e){super(e)}shouldObfuscate(){return u(this.sharedContext.agentIdentifier).length>0}obfuscateString(e){if(!e||"string"!=typeof e)return e;for(var t=u(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r}}function u(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(s),t}function d(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&((0,a.Z)('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):((0,a.Z)('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&((0,a.Z)('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},2650:(e,t,r)=>{"use strict";r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{"use strict";r.d(t,{N:()=>i,e:()=>o});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return void(0,n.iz)("visibilitychange",r);function r(){if(t){if("hidden"!=document.visibilityState)return;e()}e(document.visibilityState)}}function o(){return"hidden"===document.visibilityState?-1:1/0}},6034:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.metrics},2484:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewEvent},6382:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},1509:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6562),i=r(3752),o=r(2384),a=r(6797);class s{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,n.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,n.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,r)=>{"use strict";r.d(t,{j:()=>w});var n=r(8683),i=r.n(n),o=r(2325),a=r(6562),s=r(9252),c=r(7022),u=r(3752),d=r(2053),l=r(4329),f=r(2650),g=r(2374);function h(e,t,n){n||(0,l.R)(e,"api"),function(e){function t(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&e.api[t](...n)}))}["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError"].forEach((r=>{e[r]=function(){for(var e=arguments.length,n=new Array(e),i=0;i<e;i++)n[i]=arguments[i];return t(r,...n)}}))}(t);var h=u.ee.get(e),p=h.get("tracer"),v="api-",m="api-ixn-";function b(){}(0,c.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=y(v,r,!0,"api")})),t.addPageAction=y(v,"addPageAction",!0,o.D.pageAction),t.setCurrentRouteName=y(v,"routeName",!0,o.D.spa),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,a.OP)(e).customTransaction=(r||"http://custom.transaction")+t,y(v,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){const n=(0,a.C5)(e);return(0,a.CX)(e,{...n,jsAttributes:{...n.jsAttributes,[t]:r}}),y(v,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new b).get()};var w=b.prototype={createTracer:function(e,t){var r={},n=this,i="function"==typeof t;return(0,s.p)("api-ixn-tracer",[(0,d.zO)(),e,r],n,o.D.spa,h),function(){if(p.emit((i?"":"no-")+"fn-start",[(0,d.zO)(),n,i],r),i)try{return t.apply(this,arguments)}catch(e){throw p.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{p.emit("fn-end",[(0,d.zO)()],r)}}}};function y(e,t,r,n){return function(){return(0,s.p)("record-supportability",["API/"+t+"/called"],void 0,o.D.metrics,h),(0,s.p)(e+t,[(0,d.zO)()].concat(i()(arguments)),r?null:this,n,h),r?void 0:this}}function A(){r.e(692).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,l.L)(e,"api")}))}(0,c.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){w[t]=y(m,t,void 0,o.D.spa)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,s.p)("record-supportability",["API/noticeError/called"],void 0,o.D.metrics,h),(0,s.p)("err",[e,(0,d.zO)(),!1,t],void 0,o.D.jserrors,h)},g.v6?A():(0,f.b)((()=>A()),!0)}var p=r(6797);const v={stn:o.D.sessionTrace,err:o.D.jserrors,ins:o.D.pageAction,spa:o.D.spa};function m(e,t){var r=u.ee.get(t);e&&"object"==typeof e&&((0,c.D)(e,(function(e,t){if(!t)return(0,s.p)("block-"+e,[],void 0,v[e],r);t&&!b[e]&&((0,s.p)("feat-"+e,[],void 0,v[e],r),b[e]=!0)})),(0,l.L)(t,o.D.pageViewEvent))}const b={};function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},r=arguments.length>2?arguments[2]:void 0,n=arguments.length>3?arguments[3]:void 0,{init:i,info:o,loader_config:s,runtime:c={loaderType:r},exposed:u=!0}=t;const d=(0,p.gG)();let l={};return o||(i=d.init,o=d.info,s=d.loader_config,l=d),g.v6&&(o.jsAttributes={...o.jsAttributes,isWorker:!0}),(0,a.CX)(e,o),(0,a.Dg)(e,i||{}),(0,a.GE)(e,s||{}),(0,a.sU)(e,c),h(e,l,n),(0,p.Qy)(e,d,"api"),(0,p.Qy)(e,u,"exposed"),g.v6||((0,p.EZ)("activatedFeatures",b),(0,p.EZ)("setToken",(t=>m(t,e)))),l}},909:(e,t,r)=>{"use strict";r.d(t,{Z:()=>i,q:()=>o});var n=r(2325);function i(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}function o(e){return e===n.D.jserrors?[]:["auto"]}},2325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8}},8683:e=>{e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}},4992:(e,t,r)=>{var n={"./ajax/aggregate":[960,779,960],"./jserrors/aggregate":[6112,779,112],"./metrics/aggregate":[4325,779,325],"./page_action/aggregate":[6817,779,817],"./page_view_event/aggregate":[4823,779,823],"./page_view_timing/aggregate":[8785,779,785],"./session_trace/aggregate":[1307,779,307],"./spa/aggregate":[9378,779,378]};function i(e){if(!r.o(n,e))return Promise.resolve().then((()=>{var t=new Error("Cannot find module '"+e+"'");throw t.code="MODULE_NOT_FOUND",t}));var t=n[e],i=t[0];return Promise.all(t.slice(1).map(r.e)).then((()=>r(i)))}i.keys=()=>Object.keys(n),i.id=4992,e.exports=i}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>e+"."+i.h().slice(0,8)+"-1223.js",i.h=()=>"215647de1097144af948",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={55:0,308:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{"use strict";i.r(o);var e=i(2325),t=i(6562);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,`${e}.enabled`)}(r,e)})),n}var a=i(2384),s=i(909),c=i(9557),u=i(7022);class d extends c.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,u.D)(e,(function(e,r){t[e]=l(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,u.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=l(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=f(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=l(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=g(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function l(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=f(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function f(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function g(e){return"object"!=typeof e?[]:(0,u.D)(e,h)}function h(e,t){return t}var p=i(6797),v=i(5526),m=i(8610);var b=i(9252),w=i(2053),y=i(8283),A=i(6625),x=i(4329),E=i(1509),O=i(2650),S=i(2374);class D extends E.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.completed=new Promise(((e,t)=>{this.resolve=e,this.reject=t})),this.hasAggregator=!1,this.auto=n,n&&(0,x.R)(e,r)}importAggregator(){try{if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{Aggregate:e}=await i(4992)(`./${this.featureName}/aggregate`);new e(this.agentIdentifier,this.aggregator),this.resolve()}catch(e){(0,m.Z)(`Failed to import aggregator class for ${this.featureName}`,e)}};S.v6?e():(0,O.b)((()=>e()),!0)}catch(e){this.reject(e)}}}var j,_,k,T=i(2484);class P extends D{constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,T.t,r),S.il&&((0,A.v)(e),(0,y.B)(e,"firstbyte",(0,w.yf)()),(0,O.K)((()=>this.measureDomContentLoaded())),(0,O.b)((()=>this.measureWindowLoaded()),!0),this.importAggregator())}measureWindowLoaded(){var t=(0,w.zO)();(0,y.B)(this.agentIdentifier,"onload",t+(0,w.os)()),(0,b.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}measureDomContentLoaded(){(0,y.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())}}j=P,_="featureName",k=T.t,_ in j?Object.defineProperty(j,_,{value:k,enumerable:!0,configurable:!0,writable:!0}):j[_]=k;var C=i(6998),I=i(8544),N=i(6382);class R extends D{constructor(t,r){var n;let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(t,r,N.t,i),n=this,S.il){if(this.pageHiddenTime=(0,C.e)(),this.performanceObserver,this.lcpPerformanceObserver,this.clsPerformanceObserver,this.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){this.performanceObserver=new PerformanceObserver((function(){return n.perfObserver(...arguments)}));try{this.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}this.lcpPerformanceObserver=new PerformanceObserver((function(){return n.lcpObserver(...arguments)}));try{this.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}this.clsPerformanceObserver=new PerformanceObserver((function(){return n.clsObserver(...arguments)}));try{this.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}this.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((e=>{(0,I.iz)(e,(function(){return n.captureInteraction(...arguments)}))})),(0,C.N)((()=>{this.pageHiddenTime=(0,w.zO)(),(0,b.p)("docHidden",[this.pageHiddenTime],void 0,e.D.pageViewTiming,this.ee)}),!0),(0,I.bP)("pagehide",(()=>(0,b.p)("winPagehide",[(0,w.zO)()],void 0,e.D.pageViewTiming,this.ee))),this.importAggregator()}}perfObserver(t,r){t.getEntries().forEach((t=>{"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee)}))}lcpObserver(t,r){var n=t.getEntries();if(n.length>0){var i=n[n.length-1];if(this.pageHiddenTime<i.startTime)return;var o=[i],a=this.addConnectionAttributes({});a&&o.push(a),(0,b.p)("lcp",o,void 0,e.D.pageViewTiming,this.ee)}}clsObserver(t){t.getEntries().forEach((t=>{t.hadRecentInput||(0,b.p)("cls",[t],void 0,e.D.pageViewTiming,this.ee)}))}addConnectionAttributes(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e}captureInteraction(r){if(r instanceof t.Yu.EV&&!this.fiRecorded){var n=Math.round(r.timeStamp),i={type:r.type};this.addConnectionAttributes(i),n<=(0,w.zO)()?i.fid=(0,w.zO)()-n:n>(0,w.os)()&&n<=Date.now()?(n-=(0,w.os)(),i.fid=(0,w.zO)()-n):n=(0,w.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",n,i],void 0,e.D.pageViewTiming,this.ee)}}}!function(e,t,r){t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(R,"featureName",N.t);var B=i(4045),M="React",V="Angular",q="AngularJS",L="Backbone",z="Ember",W="Vue",$="Meteor",F="Zepto",G="Jquery";function Z(){if(!S.il)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(M),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(q),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(V),window.Backbone&&e.push(L),window.Ember&&e.push(z),window.Vue&&e.push(W),window.Meteor&&e.push($),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var U=i(9548),H=i(9226),X=i(8226);const Q=Boolean(S._A?.Worker),K=Boolean(S._A?.SharedWorker),J=Boolean(S._A?.navigator?.serviceWorker);let Y,ee,te;var re=i(6034);class ne extends D{constructor(e,t){var r;let n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,re.t,i),r=this,this.PfFeatStatusEnum=n,this.singleChecks(),this.eachSessionChecks(),(0,B.X)("record-supportability",(function(){return r.recordSupportability(...arguments)}),this.featureName,this.ee),(0,B.X)("record-custom",(function(){return r.recordCustom(...arguments)}),this.featureName,this.ee),this.importAggregator()}recordSupportability(e,t){var r=["sm",e,{name:e},t];return(0,b.p)("storeMetric",r,null,this.featureName,this.ee),r}recordCustom(e,t){var r=["cm",e,{name:e},t];return(0,b.p)("storeEventMetrics",r,null,this.featureName,this.ee),r}singleChecks(){this.recordSupportability(`Generic/Version/${X.q}/Detected`);const{loaderType:e}=(0,t.OP)(this.agentIdentifier);e&&this.recordSupportability(`Generic/LoaderType/${e}/Detected`),S.il&&(0,O.K)((()=>{Z().forEach((e=>{this.recordSupportability("Framework/"+e+"/Detected")}))})),U.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),U.T.supportabilityMetricSent=!0);const r=(0,H.$c)(this.agentIdentifier);r.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),r.length>0&&!(0,H.Ng)(r)&&this.recordSupportability("Generic/Obfuscate/Invalid"),S.il&&this.reportPolyfillsNeeded(),function(e){if(!Y){if(Q){Y=Worker;try{S._A.Worker=r(Y,"Dedicated")}catch(e){o(e,"Dedicated")}if(K){ee=SharedWorker;try{S._A.SharedWorker=r(ee,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(J){te=navigator.serviceWorker.register;try{S._A.navigator.serviceWorker.register=(t=te,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){S.v6||e(`Workers/${t}/Unavailable`)}function i(t,r){e("module"===r?`Workers/${t}/Module`:`Workers/${t}/Classic`)}function o(t,r){e(`Workers/${r}/SM/Unsupported`),(0,m.Z)(`NR Agent: Unable to capture ${r} workers.`,t)}}(this.recordSupportability.bind(this))}reportPolyfillsNeeded(){this.recordSupportability(`Generic/Polyfill/Promise/${this.PfFeatStatusEnum.PROMISE}`),this.recordSupportability(`Generic/Polyfill/ArrayIncludes/${this.PfFeatStatusEnum.ARRAY_INCLUDES}`),this.recordSupportability(`Generic/Polyfill/ObjectAssign/${this.PfFeatStatusEnum.OBJECT_ASSIGN}`),this.recordSupportability(`Generic/Polyfill/ObjectEntries/${this.PfFeatStatusEnum.OBJECT_ENTRIES}`)}eachSessionChecks(){S.il&&(0,I.bP)("pageshow",(e=>{e.persisted&&this.recordCustom("Custom/BFCache/PageRestored")}))}}!function(e,t,r){t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(ne,"featureName",re.t);new class{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,v.ky)(16);this.agentIdentifier=r,this.sharedAggregator=new d({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=t.features||[],this.desiredFeatures.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),Object.assign(this,(0,a.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){try{const e=n(this.agentIdentifier);this.desiredFeatures.forEach((t=>{if(e[t.featureName]){const r=(0,s.Z)(t.featureName);r.every((t=>e[t]))||(0,m.Z)(`${t.featureName} is enabled but one or more dependent features has been disabled (${JSON.stringify(r)}). This may cause unintended consequences or missing data...`),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,p.Qy)(this.agentIdentifier,this.features,"features")}catch(e){return(0,m.Z)("Failed to initialize instrument classes",e),!1}}}({features:[P,R,ne],loaderType:"lite"})})(),window.NRBA=o})();
+}
+
+//]]>
+</script>
+<script nonce="616d7e05">
+//<![CDATA[
+var partytown = {
+  forward: [],
+  mainWindowAccessors: ['analytics', 'gon'],
+};
+
+//]]>
+</script><script nonce="616d7e05">
+//<![CDATA[
+/* Partytown 0.7.3 - MIT builder.io */
+!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,"/"==(a=(o.lib||"/~partytown/")+(o.debug?"debug/":""))[0]&&(s=e.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(w,1e4),e.addEventListener("pt0",f),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||"partytown-sw.js"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&h()}))}),console.error):w())))}function h(t){c=e.createElement(t?"script":"iframe"),t||(c.setAttribute("style","display:block;width:0;height:0;border:0;visibility:hidden"),c.setAttribute("aria-hidden",!0)),c.src=a+"partytown-"+(t?"atomics.js?v=0.7.3":"sandbox-sw.html?"+Date.now()),e.body.appendChild(c)}function w(t,n){for(f(),t=0;t<s.length;t++)(n=e.createElement("script")).innerHTML=s[t].innerHTML,e.head.appendChild(n);c&&c.parentNode.removeChild(c)}function f(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(".").map((function(e,n,i){p=p[i[n]]=n+1<i.length?"push"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),"complete"==e.readyState?u():(t.addEventListener("DOMContentLoaded",u),t.addEventListener("load",u))}(window,document,navigator,top,window.crossOriginIsolated);
+
+//]]>
+</script>
+<script nonce="616d7e05">
+//<![CDATA[
+window.gon={};gon.fired_events={};gon.is_bot=false;gon.applications={"challenge":true};gon.current_user={"id":611302,"email":"filatov.serghei@gmail.com","sanitized_phone_number":"","username":"user-2dd644c3bd5e64ad","created_at":"2023-03-04T16:29:28.603Z","last_viewed_notification_id":null,"paid_days_count":0,"first_name":"Serghei","last_name":"Filatov","full_name":"Serghei Filatov","birthday":null,"city":null,"country":null,"text":"filatov.serghei@gmail.com (user-2dd644c3bd5e64ad)","is_guest":false,"is_mentor":null,"is_tutor":false,"is_hexlet_employee":false,"current_company":null,"can_use_paid_features":false,"current_program":null,"is_active_group_member":false,"is_active_async_group_member":false,"url":"https://hexlet.io/u/user-2dd644c3bd5e64ad"};gon.token="5cOk-V17TDkdB24ARaY2S203Jn4XkaqVNY17X2PTNtMKfevtDwdxJ9dHmJgp1XJlrHgYmTs1hQLPZajazdUW0A";gon.events=["blog_post_moderation_submitted","code_review_created","team_balance_recounted","team_created","team_updated","course_started","course_finished","exercise_started","lead_created","lesson_started","lesson_finished","lesson_unit_finished","product_payment_paid","program_started","program_finished","project_started","project_check_point_finished","project_sent_to_review","project_finished","registration_failed","show_lead_modal","signed_up","signed_up_program_started","solution_viewed","subscription_paid","subscription_price_changed","subscription_product_changed","test","topic_created","topic_comment_created","tutor_assigned","tutorship_application_created","user_email_confirmed","user_email_changed","user_updated","ambassador_created","added_to_group","custom_payment_paid","content_course_finished","test_event","project_member_review_accepted","project_member_review_approved","project_member_review_declined","project_member_review_rejected","signed_in","subscription_cancelled","subscription_created","subscription_deleted","topic_assigned","topic_comment_marked_as_solution","qna_answer_created","qna_question_created"];gon.disqus_name="hexletio";gon.locale="ru";gon.rails_env="production";gon.mobile=false;gon.google={"analytics_key":"UA-1360700-51","optimize_key":"GTM-5QDVFPF"};gon.recaptcha={"site_key_v3":"6LenGbgZAAAAAM7HbrDbn5JlizCSzPcS767c9vaY"};gon.social_signin=false;gon.typoreporter_google_form_id="1FAIpQLSeibfGq-KvWQ2Fyru-zkFFRVTLBuzXAHAoEyN1p49FtDmNoNA";gon.notifications=[{"id":4034612,"message":"Сохранили решение для \u003cb\u003eПравило близости\u003c/b\u003e","url":"https://ru.hexlet.io/code_reviews/940550","human_created_at":"23 минуты назад","icon":"\u003cspan class=\"fas fa-bicycle\"\u003e\u003c/span\u003e"}];gon.lesson={"id":997,"slug":"grouping"};gon.course={"slug":"html"};gon.topics=[{"id":67665,"title":"Только мне кажется что должен быть бэкграуд какой-то в знаниях html  css, ДО прохождения этого курса? не знаю, дьявол кроется , видимо, \"в деталях\", а вот  с деталями то и очень скупо..","creator":{"id":452871,"public_name":"Наталья","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-d86aabf250960e6d","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"03 июня 2022","location":"/topics/67665","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[{"id":18190,"user_id":450032,"topic_id":67665},{"id":20406,"user_id":544659,"topic_id":67665},{"id":21378,"user_id":566331,"topic_id":67665}],"comments":[{"id":141998,"body":"Здравствуйте\n\nЭто немного устаревшая версия курса. Сейчас, в качестве основного используется [Основы современной вёрстки](https://ru.hexlet.io/courses/layout-designer-basics)","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"06 июня 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]},{"id":165812,"body":"**Наталья**, не только тебе, тут тупо сидеть и гуглить что бы что то сделать, если раньше не тсалкивался и не писал, то фиг сделаешь)","creator":{"id":566331,"public_name":"Максим Рогов","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-2b847da436251562","has_received_mentor_response_at_least_once":false,"additional_info":{}},"created_at":"17 декабря 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":168293,"user_id":566331},{"id":141168,"user_id":452871},{"id":141182,"user_id":301705},{"id":141415,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":66592,"title":"как отделить один элемент от другого упражнение на Правило близости","creator":{"id":463666,"public_name":"бахром","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-8f3d09d6feff8f10","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"18 мая 2022","location":"/topics/66592","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":139795,"body":"Здравствуйте\n\nДля этого стоит использовать `margin` или `padding` в зависимости от того, требуется внешний или внутренний отступ. Немного про эти правила было в этом уроке https://ru.hexlet.io/courses/html/lessons/divs/theory_unit\n\nСейчас эта тема затрагивается совсем немного, чтобы сильно не нагружать, но в одном из следующих курсов тема будет раскрыта намного полнее. Конкретнее в этом уроке: https://ru.hexlet.io/courses/css-content/lessons/box-model/theory_unit\n\nСам курс уже немного не актуален и не поддерживается. Вот этот курс является основным при первом знакомстве с вёрсткой: https://ru.hexlet.io/courses/layout-designer-basics","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"18 мая 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":138895,"user_id":463666},{"id":138963,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":66162,"title":"Всем привет! Я не понимаю задание. Указано ,что заголовок второго уровня — специальность. Далее указано, что необходимо сделать, чтобы у заголовка второго уровня был размер шрифта 32 пикселя. Следом идет задание: у заголовка второго уровня .header-title в #header размер шрифта 18 пикселей; Я правильно понимаю, что речь идет об одном и том же заголовке? У меня после проверки выходит ошибка: h2 font size must be 32px (1 ms).  Я уже что только не менял, не получается и все решить проблему.","creator":{"id":409774,"public_name":"Евгений","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/beavis891","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"10 мая 2022","location":"/topics/66162","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":138807,"body":"Здравствуйте\n\nА можете сделать и прислать [код-ревью](https://help.hexlet.io/ru/articles/111135-kod-revyu) вашего текущего задания?","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"11 мая 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":137879,"user_id":409774},{"id":137997,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":65452,"title":"Здравствуйте\nПомогите понять, где ошибка, пожалуйста: https://ru.hexlet.io/code_reviews/563541\n\nЗаранее спасибо) ","creator":{"id":453432,"public_name":"Маша","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-e6ad4e9fb6dc8204","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"27 апреля 2022","location":"/topics/65452","has_solutions":true,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":137839,"body":"Здравствуйте\n\nТут парочка вещей, которые стоит поправить и тесты пройдут :)\n\n1. У вас есть лишняя строка вначале `!DOCTYPE html\u003e`. Кажется, что это просто лишняя строка, а она внесла очень много проблем с тем, что браузер перестал корректно обрабатывать HTML\n2. У вас есть незакрытый тег с идентификатором `main`. Тесты ожидают, что непосредственно внутри `body` будет три блока: `header`, `main` и `footer`, но `footer` у вас залез внутрь `main` из-за того, что не был закрыт тег. Закройте `\u003c/div\u003e` перед футером","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"29 апреля 2022","solution":true,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]},{"id":137866,"body":"Спасибо, большое)) ","creator":{"id":453432,"public_name":"Маша","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-e6ad4e9fb6dc8204","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"29 апреля 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":136560,"user_id":453432},{"id":136781,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":63631,"title":"Пожалуйста помогите второй день не могу понять почему так пишет у меня font-size: 36px на  \u003ch1\u003e \nно все равно пишит вот так \n\nFAIL __tests__/index.test.js\n  ✓ meta charset must be \"UTF-8\" (4 ms)\n  ✓ page title must exist (1 ms)\n  ✓ \"body must include #header\", \"#main\" and \"#footer\" divs (3 ms)\n  ✓ #header must include \u003ch1\u003e, \u003ch2\u003e and \u003cp\u003e (1 ms)\n  ✓ #header must include \u003cp\u003e with 2 links (1 ms)\n  ✓ #header margin bottom must be 32px (22 ms)\n  ✕ h1 font size must be 36px (8 ms)\n  ✓ h2 font size must be 32px (5 ms)\n  ✓ header-title styles (2 ms)\n  ✓ #footer margin top must be 64px (2 ms)\n\n  ● h1 font size must be 36px\n\n    expect(received).toEqual(expected) // deep equality\n\n    Expected: \"36px\"\n    Received: \"18px\"","creator":{"id":292778,"public_name":"Овик Давитян","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/pabloo","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"27 марта 2022","location":"/topics/63631","has_solutions":true,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":133931,"body":"Здравствуйте\n\nТут нужно проверить, как у вас организованы стили. Возможно есть проблема в селекторе или приоритете. Вы можете попробовать воспользоваться инструментом разработчика и проверить, какие стили применяются к элементу\n\nПришлите [код-ревью](https://help.hexlet.io/ru/articles/111135-kod-revyu) вашего решения. Тогда я смогу вам быстрее помочь в решении :)","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"28 марта 2022","solution":true,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[{"id":31532,"user_id":292778,"comment_id":133931}]},{"id":133950,"body":"**Nikita Mikhaylov**, спасибо но я вчера понял что надо сделать дела в приоритете было но я не понимал это потому что как было написано в задании стили я по порядку это все писал поэтоиу появилось проблема у меня спасибо все равно за правильный совет и ответ !!","creator":{"id":292778,"public_name":"Овик Давитян","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/pabloo","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"28 марта 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":132675,"user_id":292778},{"id":132768,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":63555,"title":"Здравствуйте! Помогите, пожалуйста, не понимаю, как убрать ошибку https://ru.hexlet.io/code_reviews/535087. Заранее спасибо ","creator":{"id":431311,"public_name":"Виктория","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-f254136a3f3e5948","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"25 марта 2022","location":"/topics/63555","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":133926,"body":"Здравствуйте\n\nТут немного нужно поправить селектор. Сейчас он у вас указан таким образом:\n\n```css\nh2#header.header-title {}\n```\n\nКак, с точки зрения CSS, читается этот селектор? — выбрать элемент `\u003ch2\u003e` с идентификатором `header` и классом `header-title`. То есть это всё у одного элемента.\n\nВ вашей вёрстке есть блок с идентификатором `header` внутри(!) которого находится заголовок второго уровня с классом `.header-title`","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"28 марта 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[{"id":36148,"user_id":498359,"comment_id":133926}]}],"useful":false,"subscribers":[{"id":132572,"user_id":431311},{"id":132763,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":62546,"title":"Помогите понять, где ошибка!\nhttps://ru.hexlet.io/code_reviews/517656","creator":{"id":428405,"public_name":"Kiryl","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-07cfbd7f6d75bfb9","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"25 февраля 2022","location":"/topics/62546","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":131893,"body":"Здравствуйте\n\nТесты ожидали, что внутри `header` будут только элементы `h1`, `h2` и `p`. То есть всего три элемента. У вас их четыре, так как есть два параграфа","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"28 февраля 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":130408,"user_id":428405},{"id":130574,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":62480,"title":"Здравствуйте, это нормально что при нажатии на ссылку на почту ничего не происходит?","creator":{"id":357281,"public_name":"user-0f12464c8151f24c","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-0f12464c8151f24c","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"23 февраля 2022","location":"/topics/62480","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":131629,"body":"Здравствуйте\n\nПодскажите, с какой именно разметкой вы пробовали нажать на ссылку? С использованием  тега `\u003ca\u003e`? И с какого устройства делаете клик","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"24 февраля 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":130216,"user_id":357281},{"id":130297,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":62467,"title":"✓ meta charset must be \"UTF-8\" (6 ms)\n  ✓ page title must exist (2 ms)\n  ✕ \"body must include #header\", \"#main\" and \"#footer\" divs (3 ms)\n  ✕ #header must include \u003ch1\u003e, \u003ch2\u003e and \u003cp\u003e (17 ms)\n  ✕ #header must include \u003cp\u003e with 2 links (14 ms)\n  ✕ #header margin bottom must be 32px\n  ✓ h1 font size must be 36px (37 ms)\n  ✓ h2 font size must be 32px (5 ms)\n  ✕ header-title styles (7 ms)\n  ✕ #footer margin top must be 64px (1 ms)\n\nВ чем здесь ошибки?","creator":{"id":428405,"public_name":"Kiryl","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-07cfbd7f6d75bfb9","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"23 февраля 2022","location":"/topics/62467","has_solutions":null,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":131626,"body":"Здравствуйте\n\nА можете прислать [код-ревью](https://help.hexlet.io/ru/articles/111135-kod-revyu) вашего решения. Так я смогу увидеть ваше решение и помочь ","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"24 февраля 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]},{"id":131634,"body":"**Nikita Mikhaylov**, user-07cfbd7f6d75bfb9","creator":{"id":428405,"public_name":"Kiryl","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-07cfbd7f6d75bfb9","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"24 февраля 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]},{"id":131703,"body":"Нашёл его у вас в профиле, но прикладывайте именно ссылку, вот такую https://ru.hexlet.io/code_reviews/517656\n\nЗдесь обратите внимание, что в HTML идентификаторы записываются без символа `#`. Сам символ решётки используется в CSS, чтобы указать, что обращение идёт именно к идентификатору. То есть вместо\n\n```html\n\u003cdiv id=\"#header\"\u003e\n```\n\nНужно использовать \n\n```html\n\u003cdiv id=\"header\"\u003e\n```","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"25 февраля 2022","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":130200,"user_id":428405},{"id":130295,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}},{"id":59893,"title":"Привет! Помогите, пожалуйста, найти в коде ошибки \nhttps://ru.hexlet.io/code_reviews/479844?submission_id=612980","creator":{"id":409925,"public_name":"Вероника","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-a74b7e3f312f0204","has_received_mentor_response_at_least_once":true,"additional_info":{}},"communitable":{"id":997,"slug":"grouping","name":"Правило близости","location":"/courses/html/lessons/grouping/theory_unit","link":"Курс «\u003ca class=\"text-dark text-decoration-none\" href=\"https://ru.hexlet.io/courses/html\"\u003eОсновы HTML, CSS и веб-дизайна\u003c/a\u003e»\u003cbr\u003e\u0026#8627; Урок «\u003ca class=\"text-dark text-decoration-none\" href=\"/courses/html/lessons/grouping/theory_unit\"\u003eПравило близости\u003c/a\u003e» "},"created_at":"16 декабря 2021","location":"/topics/59893","has_solutions":true,"can_show_mentor_info":false,"state":"active","mentorship_state":"closed","can_destroy":false,"can_like":true,"can_update":false,"can_subscribe":true,"kind":"question","likes":[],"comments":[{"id":126649,"body":"Здравствуйте\n\nБуду отталкиваться от последнего вашего ревью. Здесь два теста не проходят и, следовательно, обратите внимание на два момента:\n\n1. Ссылки не должны быть пустыми. Они у вас есть, но тесты проверяют и то, чтобы в этих ссылках было что-то\n2. Тесты видят, что размер заголовка h1 на самом деле 18px, а не 36, как указано в задании. Почему так произошло? Ведь вы действительно указали нужный размер в CSS. Здесь стоит вспомнить о каскадности CSS. Правила, которые находятся ниже могут «перебить» правила выше. Оцените ещё раз свой CSS, посмотрите, когда указывается значение в 36px и когда оно ставится 18px. Не забывайте про то, что одни правила могут перебиваться другими","creator":{"id":186965,"public_name":"Nikita Mikhaylov","is_removed":false,"is_mentor":true,"can_use_paid_features":true,"is_tutor":true,"public_profile_enabled":null,"public_profile_url":"/u/n_mikhaylov","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"20 декабря 2021","solution":true,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]},{"id":126660,"body":"Спасибо Вам огромное за ответ, Вы мне очень помогли!","creator":{"id":409925,"public_name":"Вероника","is_removed":false,"is_mentor":null,"can_use_paid_features":false,"is_tutor":false,"public_profile_enabled":null,"public_profile_url":"/u/user-a74b7e3f312f0204","has_received_mentor_response_at_least_once":true,"additional_info":{}},"created_at":"20 декабря 2021","solution":null,"can_destroy":false,"can_like":true,"can_update":false,"can_mark_as_solution":false,"likes":[]}],"useful":false,"subscribers":[{"id":124633,"user_id":409925},{"id":124806,"user_id":186965}],"mentor":{"id":58,"user_id":186965,"full_name":"Nikita Mikhaylov","username":"n_mikhaylov"}}];gon.topic_type="community";gon.communitable_type="Lesson";gon.api_topics_url="https://ru.hexlet.io/api/topics/lessons.json?q%5Bcommunitable_of_Lesson_type_id_eq%5D=997\u0026q%5Bcommunitable_type_eq%5D=Lesson";gon.communitable_id=997;gon.can_render_new_topic_box=true;gon.topics_count=250;gon.finish_url="/api/lessons/997/finish_unit.json?unit=exercise";gon.run={"id":9620550,"state":"not_pulled","ide_port":null,"ide_url":"https://ide-intro-to-html-basic-structure-5132151.evaluator3-5.hexlet.io:443?","ide_javascript_url":"https://ide-intro-to-html-basic-structure-5132151.evaluator3-5.hexlet.io:443/assets/main.js/?","human_state_name":"not pulled","web_port":null,"web_url":"https://web-intro-to-html-basic-structure-5132151.evaluator3-5.hexlet.io:443?","instance_id":5132151,"exercise_finished":true,"server_status":"alive"};gon.exercise={"id":659,"is_reviewable":true,"kind":"exercise"};gon.next_url="/courses/html/lessons/grouping/next?unit=exercise";gon.group_slack_url=null;gon.ide_settings={"has_web_view":true,"readme":"\u003ch2 id=\"index-html\"\u003eindex.html\u003c/h2\u003e\u003cp\u003eСоздайте HTML-страницу с резюме. Вот что примерно должно получиться:\u003c/p\u003e\u003cp\u003e\u003cimg src=\"https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6Ijk4OGNjYWM4NzY1OWE2NmQ0MjYxNTQ5YmVmNjViN2RmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=ece7d60c58c2881ff12986619c3572878e05fe218f883cae21b62e6389e9ddb2\" title=\"\" alt=\"Резюме разработчика\" class=\"px-2 px-md-3 px-lg-4 px-xl-5 img-fluid\" loading=\"auto\"\u003e\u003c/p\u003e\u003cp\u003eТребования:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eУказана кодировка страницы \u0026quot;UTF-8\u0026quot;.\u003c/li\u003e\n\u003cli\u003eПодключен файл со стилями при помощи \u003ccode\u003elink\u003c/code\u003e внутри \u003ccode\u003ehead\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003eУказан заголовок (title).\u003c/li\u003e\n\u003cli\u003eВнутри \u003ccode\u003ebody\u003c/code\u003e три div-элемента с разными id: \u003ccode\u003e#header\u003c/code\u003e, \u003ccode\u003e#main\u003c/code\u003e и \u003ccode\u003e#footer\u003c/code\u003e.\n\n\u003cul\u003e\n\u003cli\u003eВнутри \u003ccode\u003e#header\u003c/code\u003e три элемента: \u003ccode\u003eh1\u003c/code\u003e, \u003ccode\u003eh2\u003c/code\u003e с классом \u003ccode\u003eheader-title\u003c/code\u003e и абзац \u003ccode\u003ep\u003c/code\u003e.\n\n\u003col\u003e\n\u003cli\u003eВ заголовке первого уровня — имя и фамилия\u003c/li\u003e\n\u003cli\u003eВ заголовке второго уровня — специальность\u003c/li\u003e\n\u003cli\u003eВ параграфе — две ссылки:\n\n\u003col\u003e\n\u003cli\u003eemail-адрес (используйте формат ссылки \u003ccode\u003ehref=\u0026quot;mailto:xx@yy.zz\u0026quot;\u003c/code\u003e)\u003c/li\u003e\n\u003cli\u003eадрес вашего сайта или блога (если у вас их нет, то можете дать ссылку на профиль в соц. сети или Моём Круге)\u003c/li\u003e\n\u003c/ol\u003e\u003c/li\u003e\n\u003c/ol\u003e\u003c/li\u003e\n\u003cli\u003eВнутри \u003ccode\u003e#main\u003c/code\u003e короткий вводный текст (опционально) и несколько секций: \u0026quot;Опыт работы\u0026quot;, \u0026quot;Образование\u0026quot;, \u0026quot;Другие навыки и увлечения\u0026quot;. \u003cstrong\u003eКаждая секция начинается с заголовка второго уровня\u003c/strong\u003e, и содержит несколько пунктов. В каждом пункте — список. См. пример на скриншоте.\u003c/li\u003e\n\u003cli\u003eВнутри \u003ccode\u003e#footer\u003c/code\u003e — имя, адрес, телефон и email.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2 id=\"style-css\"\u003estyle.css\u003c/h2\u003e\u003cp\u003eПри оформлении учитывайте правило близости. Помните: внутренние расстояния должны быть меньше внешних.\u003c/p\u003e\u003cp\u003e(Под отступом всегда подразумевается margin).\u003c/p\u003e\u003cp\u003eЗадайте стили в файле \u003ccode\u003estyle.css\u003c/code\u003e:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eУ всех абзацев отступ снизу 12 пикселей.\u003c/li\u003e\n\u003cli\u003eЗаголовки первых трёх уровней: вес шрифта 400\u003c/li\u003e\n\u003cli\u003eУ заголовка первого уровня:\n\n\u003cul\u003e\n\u003cli\u003eразмер шрифта 36 пикселей;\u003c/li\u003e\n\u003cli\u003eотступ снизу 0.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eУ заголовка второго уровня:\n\n\u003cul\u003e\n\u003cli\u003eразмер шрифта 32 пикселя;\u003c/li\u003e\n\u003cli\u003eграница снизу толщиной 1 пиксель серого цвета;\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eотступ снизу 8 пикселей\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eУ заголовка второго уровня \u003ccode\u003e.header-title\u003c/code\u003e в \u003ccode\u003e#header\u003c/code\u003e:\n\n\u003cul\u003e\n\u003cli\u003eразмер шрифта 18 пикселей;\u003c/li\u003e\n\u003cli\u003eотсутствует граница снизу. Используйте значение \u003ccode\u003enone\u003c/code\u003e для этого;\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eотступ снизу 10 пикселей\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eУ \u003ccode\u003e#header\u003c/code\u003e:\n\n\u003cul\u003e\n\u003cli\u003eотступ снизу 32 пикселя\u003c/li\u003e\n\u003cli\u003eвыравнивание текста по центру\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eУ \u003ccode\u003e#footer\u003c/code\u003e:\n\n\u003cul\u003e\n\u003cli\u003eотступ сверху 64 пикселя\u003c/li\u003e\n\u003cli\u003eвыравнивание текста по центру\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3 id=\"vazhno-validnost\"\u003eВАЖНО: Валидность\u003c/h3\u003e\u003cp\u003eHTML-страница может выглядеть нормально, но содержать ошибки. Корректность (или валидность) HTML-кода можно проверить с помощью специальных утилит или сервисов. Некорректный HTML скорее всего не будет принят нашей системой проверки (тестами).\u003c/p\u003e\u003cp\u003eВоспользуйтесь \u003ca href=\"https://validator.w3.org/nu/#textarea\" target=\"_blank\" rel=\"nofollow\"\u003eвалидатором w3\u003c/a\u003e чтобы удостовериться, что ваша страница полностью удовлетворяет правилам спецификации HTML.\u003c/p\u003e","files_to_open":["index.html","style.css"],"linter_config":{"state":"disabled","message":"\u003cdiv class=\"col-lg-10\"\u003e\u003ch3 class=\"fw-bold text-white\"\u003eЛинтер отключён\u003c/h3\u003e\u003cp class=\"fs-5 mb-2\"\u003e\u003ca href=\"https://help.hexlet.io/ru/articles/111175\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eЛинтер\u003c/a\u003e проверяет код на соответствие стандартам. Писать хорошо оформленный код особенно важно, если вы хотите работать программистом. Чтобы включить автоматическую проверку линтером, выберите один из платных форматов обучения.\u003c/p\u003e\u003ca href=\"https://ru.hexlet.io/account/subscription\" class=\"btn btn-outline-primary mx-auto rounded\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eПосмотреть цены\u003c/a\u003e\u003c/div\u003e"}};gon.ideOnboarding={"isFirstVisit":false};gon.exercise_solution={"removedParts":[{"id":69372,"file_name":"index.html","text":"\u003c!-- BEGIN --\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\"\u003e\n    \u003clink rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"\u003e\n    \u003ctitle\u003eРезюме Алексей Примадонин\u003c/title\u003e\n  \u003c/head\u003e\n\n  \u003cbody\u003e\n    \u003cdiv id=\"header\"\u003e\n      \u003ch1\u003eАлексей Примадонин\u003c/h1\u003e\n      \u003ch2 class=\"header-title\"\u003eВеб-разработчик\u003c/h2\u003e\n      \u003cp\u003e\n        \u003ca href=\"mailto:ap@somemail.com\"\u003eap@somemail.com\u003c/a\u003e,\n        \u003ca href=\"https://github.com/alprima\"\u003egithub.com/alprima\u003c/a\u003e\n      \u003c/p\u003e\n    \u003c/div\u003e\n\n    \u003cdiv id=\"main\"\u003e\n      \u003cp\u003e\n        Я увлекаюсь веб-дизайном со старших классов школы. Начал с мини-сайтов для себя и друзей, потом для местных фирм и организаций. После курсов на Хекслете начал работу веб-разработчиком. Пишу на JS (ES6), люблю функциональное программирование. Умею работать с SQL, HTTP, Git и Ansible. Пишу тесты.\n      \u003c/p\u003e\n\n      \u003cp\u003e\n        Готов к удаленной работе и релокации.\n      \u003c/p\u003e\n\n      \u003cdiv class=\"main_section\"\u003e\n        \u003ch2\u003eОпыт работы\u003c/h2\u003e\n\n        \u003cdiv class=\"main_section_item\"\u003e\n          \u003ch3\u003eМайкрософт Россия\u003c/h3\u003e\n          \u003cp\u003eПрограммист (стажировка), \u003ci\u003eапрель 2016 — ноябрь 2016\u003c/i\u003e\u003c/p\u003e\n          \u003cul\u003e\n            \u003cli\u003eРабота в команде на C#\u003c/li\u003e\n            \u003cli\u003eСоздание веб-сайта проекта JDX\u003c/li\u003e\n          \u003c/ul\u003e\n        \u003c/div\u003e\n\n        \u003cdiv class=\"main_section_item\"\u003e\n          \u003ch3\u003eTOO «Винная Баня»\u003c/h3\u003e\n          \u003cp\u003eВеб-дизайн, \u003ci\u003eянварь 2015 — апрель 2016\u003c/i\u003e\u003c/p\u003e\n          \u003cul\u003e\n            \u003cli\u003eВерстка макетов\u003c/li\u003e\n            \u003cli\u003eРазработка тем для Wordpress\u003c/li\u003e\n            \u003cli\u003eПоддержка сайта\u003c/li\u003e\n          \u003c/ul\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv class=\"main_section\"\u003e\n        \u003ch2\u003eОбразование\u003c/h2\u003e\n\n        \u003cdiv class=\"main_section_item\"\u003e\n          \u003ch3\u003eУниверситет им. Патриса Лумумбы\u003c/h3\u003e\n          \u003cp\u003eБакалавр информационных систем, \u003ci\u003e2012 —  2016\u003c/i\u003e\u003c/p\u003e\n        \u003c/div\u003e\n\n        \u003cdiv class=\"main_section_item\"\u003e\n          \u003ch3\u003eХекслет\u003c/h3\u003e\n          \u003cp\u003eКурсы по программированию, JS Backend/Frontend, \u003ci\u003e2015 — 2017\u003c/i\u003e\u003c/p\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv class=\"main_section\"\u003e\n        \u003ch2\u003eДругие навыки и увлечения\u003c/h2\u003e\n\n        \u003cdiv class=\"main_section_item\"\u003e\n          \u003cul\u003e\n            \u003cli\u003eОсновы дизайна и типографики\u003c/li\u003e\n            \u003cli\u003eЛюбительская игра на гитаре\u003c/li\u003e\n            \u003cli\u003eХоккей на траве (городская лига)\u003c/li\u003e\n          \u003c/ul\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n    \u003c/div\u003e\n\n    \u003cdiv id=\"footer\"\u003e\n      \u003cstrong\u003eАлексей Примадонин\u003c/strong\u003e\n      \u003cbr/\u003e\n      ул. Полевая, 12, Астрахань, Россия +7 888 127 00 01, \u003ca href=\"mailto:ap@somemail.com\"\u003eap@somemail.com\u003c/a\u003e\n    \u003c/div\u003e\n\n  \u003c/body\u003e\n\u003c/html\u003e\n\u003c!-- END --\u003e","build_id":66149,"created_at":"2022-09-16T05:24:36.277Z","updated_at":"2022-09-16T05:24:36.277Z"},{"id":69373,"file_name":"style.css","text":"/* BEGIN */\np {\n  margin-top: 0;\n  margin-bottom: 12px;\n}\n\nul {\n  margin-top: 0;\n}\n\nh1, h2, h3 {\n  font-weight: 400;\n  margin: 0;\n}\n\nh1 {\n  font-size: 36px;\n}\n\nh2 {\n  font-size: 32px;\n  border-bottom: 1px grey solid;\n  margin-bottom: 8px;\n}\n\n.header-title {\n  font-size: 18px;\n  border-bottom: none;\n  margin-bottom: 10px;\n}\n\nh3 {\n  font-size: 20px;\n}\n\n#header {\n  margin-bottom: 32px;\n  text-align: center;\n}\n\n.main_section {\n  margin-bottom: 24px;\n}\n\n.main_section_item {\n  margin-bottom: 16px;\n}\n\n#footer {\n  margin-top: 64px;\n  text-align: center;\n}\n/* END */","build_id":66149,"created_at":"2022-09-16T05:24:36.285Z","updated_at":"2022-09-16T05:24:36.285Z"}],"state":null};
+//]]>
+</script>
+<script nonce="616d7e05">
+//<![CDATA[
+(function() {
+  const options = {
+    dsn: 'https://5e408926ab534fba9c66d8f620d1f58b@o1090356.ingest.sentry.io/6106229',
+    environment: 'production',
+    release: 'v7738',
+    initialScope: {
+      user: gon.current_user
+    },
+    ignoreErrors: [
+      'top.GLOBALS', // Random plugins/extensions
+      'VK is',
+      'VK.Retargeting is ',
+      "Can't find variable: VK",
+      'pktAnnotationHighlighter',
+      'amplitude',
+      'google_tag_manager',
+      'Unexpected keyword',
+      'illegal character',
+      'Unexpected identifier',
+      'Illegal invocation',
+      'missing = in const declaration',
+      'Loading chunk 692 failed',
+    ],
+    allowUrls: [/https?:\/\/((cdn|cdn2|ru)\.)?hexlet.io/],
+    beforeSend(event, hint) {
+      const stack = hint?.originalException?.stack || '';
+      const errorInitiator = stack
+        .split('\n')
+        .map((line) => line.trim())
+        .find((line) => line.startsWith('at'));
+      const causedByConsole = errorInitiator
+        ? errorInitiator.includes('<anonymous>:')
+        : false;
+      return causedByConsole ? null : event;
+    },
+  };
+  const key = options.dsn.replace('https://', '').split('@')[0];
+
+  (function(c,u,v,n,p,e,z,A,w){function k(a){if(!x){x=!0;var l=u.getElementsByTagName(v)[0],d=u.createElement(v);d.src=A;d.crossOrigin="anonymous";d.addEventListener("load",function(){try{c[n]=r;c[p]=t;var b=c[e],d=b.init;b.init=function(a){for(var b in a)Object.prototype.hasOwnProperty.call(a,b)&&(w[b]=a[b]);d(w)};B(a,b)}catch(g){console.error(g)}});l.parentNode.insertBefore(d,l)}}function B(a,l){try{for(var d=m.data,b=0;b<a.length;b++)if("function"===typeof a[b])a[b]();var e=!1,g=c.__SENTRY__;"undefined"!== typeof g&&g.hub&&g.hub.getClient()&&(e=!0);g=!1;for(b=0;b<d.length;b++)if(d[b].f){g=!0;var f=d[b];!1===e&&"init"!==f.f&&l.init();e=!0;l[f.f].apply(l,f.a)}!1===e&&!1===g&&l.init();var h=c[n],k=c[p];for(b=0;b<d.length;b++)d[b].e&&h?h.apply(c,d[b].e):d[b].p&&k&&k.apply(c,[d[b].p])}catch(C){console.error(C)}}for(var f=!0,y=!1,q=0;q<document.scripts.length;q++)if(-1<document.scripts[q].src.indexOf(z)){f="no"!==document.scripts[q].getAttribute("data-lazy");break}var x=!1,h=[],m=function(a){(a.e||a.p||a.f&& -1<a.f.indexOf("capture")||a.f&&-1<a.f.indexOf("showReportDialog"))&&f&&k(h);m.data.push(a)};m.data=[];c[e]=c[e]||{};c[e].onLoad=function(a){h.push(a);f&&!y||k(h)};c[e].forceLoad=function(){y=!0;f&&setTimeout(function(){k(h)})};"init addBreadcrumb captureMessage captureException captureEvent configureScope withScope showReportDialog".split(" ").forEach(function(a){c[e][a]=function(){m({f:a,a:arguments})}});var r=c[n];c[n]=function(a,e,d,b,f){m({e:[].slice.call(arguments)});r&&r.apply(c,arguments)}; var t=c[p];c[p]=function(a){m({p:a.reason});t&&t.apply(c,arguments)};f||setTimeout(function(){k(h)})})(window,document,"script","onerror","onunhandledrejection","Sentry",key,"https://browser.sentry-cdn.com/6.17.4/bundle.min.js",options);
+
+})();
+
+
+//]]>
+</script>
+<script nonce="616d7e05">
+//<![CDATA[
+window.EventsMapping = {
+  on: function(eventName, callback) {
+    if (gon.events.indexOf(eventName) === -1) {
+      throw new Error('Undefined event name ' + eventName + '. Check gon.events.');
+    }
+
+    if (!gon.fired_events.hasOwnProperty(eventName)) {
+      return;
+    }
+    var options = gon.fired_events[eventName];
+
+    callback(eventName, options);
+  }
+};
+
+// for custom scroll trigger in gtm
+var onceScrollHandler = function () {
+  var events = window.dataLayer || [];
+  events.push({event: 'real_first_scroll'});
+  window.removeEventListener('scroll', onceScrollHandler, false);
+};
+window.addEventListener('scroll', onceScrollHandler);
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WK88TH');
+
+
+//]]>
+</script>
+<script nonce="616d7e05">
+//<![CDATA[
+!function(){
+  var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://collect-analytics.hexlet.io/analytics/" + key + "/analytics.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+
+  analytics.load("45dec37f43fa49e392061da423f072ca");
+  analytics.page();
+
+  window.EventsMapping.on('signed_up', function() {
+    var user = gon.current_user;
+
+    analytics.identify(user.id.toString(), {
+      email: user.email,
+      first_name: user.first_name,
+      last_name: user.last_name,
+      public_name: user.public_name,
+      city: user.city ? user.city.title : null,
+      birthday: user.birthday,
+      sanitized_phone_number: user.sanitized_phone_number,
+      locale: user.locale,
+      url: user.url
+    });
+  });
+
+  window.EventsMapping.on('signed_in', function() {
+    var user = gon.current_user;
+
+    analytics.identify(user.id.toString(), {
+      email: user.email,
+      first_name: user.first_name,
+      last_name: user.last_name,
+      public_name: user.public_name,
+      city: user.city ? user.city.title : null,
+      birthday: user.birthday,
+      sanitized_phone_number: user.sanitized_phone_number,
+      locale: user.locale,
+      url: user.url
+    });
+  });
+}}();
+
+//]]>
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Hexlet","url":"https://hexlet.io","sameAs":["https://www.facebook.com/Hexlet","https://www.youtube.com/user/HexletUniversity","https://twitter.com/HexletHQ","https://soundcloud.com/hexlet"],"legalName":"Hexlet Ltd.","address":"Itälahdenkatu 22 A, 00210 Helsinki, Finland","vatID":"VAT ID: FI26641607","telephone":"+7 495 085 28 38","logo":{"@type":"ImageObject","url":"https://cdn2.hexlet.io/assets/hexlet_logo-4e7b643fd7cbe42da81624aba2faa9267523b2b925d5b576536e05d061659083.png"}}</script>
+
+<script src="https://cdn2.hexlet.io/assets/runtime-3baa1d442b81f049c1dd2db0dcecd681fcdd21d354c698c16ea1f5f2432d9bef.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/sprockets-338170875743cf71342ffc38fbb83170dce534ffa127fe9a1514b30c218c949b.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/routes-6ce832abe684fb23df1b51b654af644f9bbf2cf5c0c871990f4bae22ab100ab2.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/vendors-284758fd46d4b6a5779822796ee50b69371246bf4f8e21f59f6ea5f2ed4d97ae.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/locales-4c37a1f22353f6dc6301239e5a0c67351c5475e85cc7a80a23211bcf671138ae.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/i18n-2d98e906b694131aa3516bcc7e46243d4ef0b76db4340dfa78f332f9309ebcd3.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/markdown-43e05615e363ac2d1da88b6db542460fb3deeff9d1e17be16414c05ce501fee2.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/reactEssentials-01dca7e32ed1d5bb15cff4b63bb8fa3d045806f55039b7a255284c4545ada138.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/reactRelated-057b9326eea961556b967543489c7fba02eb81d2dbaab6fb1010f256cbbd15f0.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/application-a3c48e0aa6c719e626a9b97c39b72c7af92318d3f54ea213fee5a5e344c468c3.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/community-85e53d287eb7050edd5a8fb6ee0c9745e121e7df7ad8739b280bc81abdedd523.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script><script src="https://cdn2.hexlet.io/assets/challenge-c18865b616ffbb88b434042933c8ec9c74ea852ba259e085ad15e68eb7596df9.js" crossorigin="anonymous" defer="defer" nonce="616d7e05"></script>
+
+<meta content='max-age=0' http-equiv='cache-control'>
+<meta content='no-cache' http-equiv='cache-control'>
+<meta content='0' http-equiv='expires'>
+<meta content='Tue, 01 Jan 1980 1:00:00 GMT' http-equiv='expires'>
+<meta content='no-cache' http-equiv='pragma'>
+</head>
+<body class='h-100'>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK88TH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<div class='d-flex flex-column flex-md-row h-100'>
+<div class='border-end flex-fill tab-content overflow-hidden h-100'>
+<div aria-labelledby='lesson-tab' class='tab-pane fade show active hexlet-exercise-tab h-100' id='lesson' role='tabpanel'>
+<div class='d-flex flex-fill' id='hexlet-challenge-ide'></div>
+</div>
+<div aria-labelledby='community-tab' class='tab-pane fade overflow-auto h-100 position-relative' id='community' role='tabpanel'>
+<div class='container-xl my-3 mb-md-4 mb-lg-5'>
+<div class='row justify-content-center'>
+<div class='col-12 col-lg-10 col-xl-9 col-xxl-8'>
+<div id='community-box'></div>
+
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby='theory-tab' class='tab-pane fade overflow-auto h-100 position-relative' id='theory' role='tabpanel'>
+<div class='container-xl my-3 mb-md-4 mb-lg-5'>
+<div class='row justify-content-center'>
+<div class='col-12 col-lg-10 col-xl-9 col-xxl-8'>
+
+<div class='mt-3'>
+<div class='hexlet-typography overflow-hidden'>
+<div class='mb-4 position-relative d-inline-block'>
+<h1 class='my-0 d-flex flex-column-reverse'>
+Правило близости
+<span class='sr-only'>—</span>
+<span class='h6 mb-0 fw-normal text-muted'>Основы HTML, CSS и веб-дизайна</span>
+</h1>
+<a class="stretched-link" aria-label="Основы HTML, CSS и веб-дизайна" href="/courses/html"></a>
+</div>
+<div class="paragraph">
+<p>В следующих курсах по веб-дизайну мы будем всё больше фокусироваться на вопросах пользовательского опыта, дизайна и типографики. А сегодня в этом базовом курсе рассмотрим одно из главных и простых правил: <strong>правило близости</strong>. В английском его обычно называют principle of proximity или principle of grouping.</p>
+</div>
+<div class="paragraph">
+<p><strong>Правило близости: объекты, расположенные близко друг к другу, воспринимаются связанно.</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6ImFmZTVjM2QyMTAxZWU5MWU2ODI2YThkNjg1Mzg0YmQ2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=e5d941bd7fdcf2e342f794b18f76be09138b1f498255cdff2bd12cfe76f4d52b" alt="Правило близости CSS">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Объекты справа воспринимаются как три отдельные колонки из-за группировки.</em></p>
+</div>
+<div class="paragraph">
+<p>Из этого правила можно вывести более практическую форму: <strong>внутренние расстояния элемента должны быть меньше внешних</strong>.</p>
+</div>
+<div class="paragraph">
+<p>Что такое внутреннее расстояние элемента? Это всё, что разделяет составные части элемента. В примере выше это расстояние между окружностями одной группы. В случае абзаца текста внутреннее расстояние — это интерлиньяж — расстояние между строками. Для слов — расстояние между буквами.</p>
+</div>
+<div class="paragraph">
+<p>Что такое внешнее расстояние? Это расстояние до другого элемента. В примере выше это расстояние между колонками (блоками) окружностей. Для абзаца — расстояние до другого абзаца или заголовка. Для слов — расстояние до следующего слова.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6IjhhZmYxM2JjNDUzMGU1MGVlNzg0ZmI5MTk0NzdjYzk3LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=feae0635efd4fd293b659413894776ddcc92eab3e201afc002c578b2f22503bf" alt="Правило близости в веб">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Красным отмечено внутреннее расстояние, синим пунктиром — внешнее.</em></p>
+</div>
+<div class="paragraph">
+<p>Для блока более верхнего уровня — «заголовок+абзац» — внутренним расстоянием является расстояние между заголовком и текстом, а внешним — расстояние между блоками (оно отмечено оранжевым пунктиром).</p>
+</div>
+<div class="paragraph">
+<p>Вот типичный пример нарушения правил на веб-странице:</p>
+</div>
+<p data-height="555" data-theme-id="0" data-slug-hash="mBYBdQ" data-default-tab="html,result" data-user="hexlet" data-embed-version="2" data-pen-title="Grouping: bad example" data-editable="true" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/hexlet/pen/mBYBdQ/">Grouping: bad example</a> by Hexlet (<a href="https://codepen.io/hexlet">@hexlet</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script defer src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<div class="paragraph">
+<p>Заголовки прилепились к чужим абзацам. Расстояния между элементами списка больше расстояния между заголовком и списком — внутренние расстояния оказались больше внешних. Строка с контактами слилась со строкой списка, как будто является её продолжением. Иконка электронной почты одинаково близка и к телефону, и к электронному адресу.</p>
+</div>
+<div class="paragraph">
+<p><strong>Отредактируйте CSS так, чтобы исправить эти проблемы.</strong></p>
+</div>
+<hr class='mt-5'>
+<div class='d-flex flex-wrap flex-lg-nowrap mt-md-4 pt-lg-2 align-items-start'>
+<div class='me-3 flex-shrink-0'>
+<img width="145" height="45" alt="Аватары экспертов Хекслета" src="https://cdn2.hexlet.io/assets/faces/mentors-9e10d08ecb47270e774b0001e1d1e7ee094405d020dd1d76c2c21d1a09f7e3c7.png" loading="lazy" />
+</div>
+<div class='mt-3 mt-lg-0 w-100'>
+<h2 class='h6 fw-bold mb-0 lh-base'>Остались вопросы? Задайте их в разделе «<a href="https://help.hexlet.io/ru/articles/110020-kak-zadat-vopros-po-uroku" target="_blank" class="text-decoration-none">Обсуждение</a>»</h2>
+<p class='mb-0'>Вам ответят команда поддержки Хекслета или другие студенты.</p>
+</div>
+</div>
+<div class='mt-4'>
+<h6 class='fw-bold mb-2'>Об обучении на Хекслете</h6>
+<ul>
+<li>Статья «<a href="https://guides.hexlet.io/ru/learning" target="_blank">Как учиться и справляться с негативными мыслями</a>»</li>
+<li>Статья «<a href="https://ru.hexlet.io/blog/posts/traps-learning" target="_blank">Ловушки обучения</a>»</li>
+<li>Статья «<a href="https://ru.hexlet.io/blog/posts/slozhnye-prostye-zadachi-po-programmirovaniyu" target="_blank">Сложные простые задачи по программированию</a>»</li>
+<li>Урок «<a href="https://ru.hexlet.io/courses/introduction_to_programming/lessons/hexlet-flow/theory_unit" target="_blank">Как эффективно учиться на Хекслете</a>»</li>
+<li>Вебинар «<a href="https://www.youtube.com/watch?v=dCYZppVgGww" target="_blank" rel="nofollow">Как самостоятельно учиться</a>»</li>
+</ul>
+
+
+</div>
+
+</div>
+<div class='mt-3 d-none d-md-flex'>
+<div class='ms-auto'>
+<form class="button_to" method="post" action="/courses/html/lessons/grouping/finish_unit?unit=theory"><input type="hidden" name="_method" value="patch" autocomplete="off" /><button data-disable-with="<span class=&quot;spinner-border spinner-border-sm&quot; role=&quot;status&quot; aria-hidden=&quot;true&quot;></span><span class=&quot;d-none d-md-inline&quot;>&nbsp;Подождите...</span>
+" aria-expanded="false" data-html="true" class="btn btn-outline-primary btn-lg" id="finish-theory-button" type="submit"><span class='me-3'>Далее</span>
+<span class='fad fa-arrow-right'></span>
+</button><input type="hidden" name="authenticity_token" value="rejqRQFAkxDnAh6-_DrmEZ0sKXlwOTRsbXz4-Aa8zxgY4AATn7zguSuzQSUSWC5YYZhQnQXMBA7UNen8_zIeDQ" autocomplete="off" /></form></div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='hexlet-lesson-sidebar flex-shrink-0 overflow-auto'>
+<div class='row g-0 flex-fill'>
+<div class='col-auto d-md-none'>
+<button class='btn btn-secondary btn-lg rounded-0' data-bs-target='#exercise-external-content' data-bs-toggle='collapse'>
+<span class='fas fa-list'></span>
+</button>
+</div>
+<div class='col col-md-12 overflow-hidden'>
+<div id='hexlet-ide-control-menu'></div>
+</div>
+<div class='col-12 d-md-block collapse' id='exercise-external-content'>
+<div class='d-flex flex-wrap h-100'>
+<div class='d-none d-md-flex align-items-center w-100'>
+<a class="btn btn-link btn-lg hexlet-base-nav-item rounded-0 text-dark border-end" title="Мой Хекслет" href="/my"><span class='fal fa-home'></span>
+</a><a data-bs-toggle="modal" data-bs-target="#coursenav-modal" class="btn btn-link text-dark w-100 btn-lg border-left hexlet-base-nav-item text-decoration-none rounded-0" href="#coursenav-modal"><span class='small'>Навигация</span>
+</a></div>
+<div class='px-2 py-3 w-100 border-top d-none d-md-block'>
+<span class='d-none d-sm-block small text-center mb-2'>
+пройдено 9 уроков из 11
+</span>
+<div class='px-1'>
+<div class='progress mb-1'>
+<div class='progress-bar m-0 bg-success' style='width: 82%'></div>
+</div>
+</div>
+</div>
+<ul class='nav flex-row-reverse flex-md-column nav-justified flex-fill border-top pt-md-2' role='tablist'>
+<li class='nav-item d-md-none'>
+<a class="nav-link text-decoration-none h-100 d-flex justify-content-center align-items-center hexlet-base-nav-item" href="/my"><span class='far fa-home'></span>
+</a></li>
+<li class='nav-item d-md-none'>
+<a data-bs-toggle="modal" data-bs-target="#coursenav-modal" class="nav-link text-decoration-none h-100 d-flex justify-content-center align-items-center hexlet-base-nav-item" href="#coursenav-modal"><span class='far fa-sitemap'></span>
+</a></li>
+<li class='nav-item text-start'>
+<a class="nav-link active text-dark hexlet-base-nav-item h-100 py-3 py-md-2 d-flex justify-content-center justify-content-md-start align-items-center h-100" role="tab" aria-controls="lesson" aria-selected="true" data-bs-toggle="tab" href="#lesson"><span class='d-none d-md-inline-block'>Упражнение</span>
+<span class='far fa-code d-md-none'></span>
+</a></li>
+<li class='nav-item text-start'>
+<a class="nav-link hexlet-base-nav-item h-100 py-3 py-md-2 text-dark" role="tab" aria-controls="community" aria-selected="false" data-bs-toggle="tab" data-bs-target="#community" href="/courses/html/lessons/grouping/theory_unit#community"><span class='d-none d-md-inline-block'>Обсуждение</span>
+<span class='d-flex justify-content-center align-items-center h-100 d-md-none'>
+<span class='far fa-comments'></span>
+</span>
+</a></li>
+<li class='nav-item text-start'>
+<a class="nav-link hexlet-base-nav-item h-100 py-3 py-md-2 text-dark" role="tab" aria-controls="theory" aria-selected="false" data-bs-toggle="tab" data-bs-target="#theory" href="/courses/html/lessons/grouping/theory_unit"><span class='d-none d-md-inline-block'>Теория</span>
+<span class='d-flex justify-content-center align-items-center h-100 d-md-none'>
+<span class='far fa-file-alt'></span>
+</span>
+</a></li>
+</ul>
+<div class='d-flex flex-md-column w-100 mt-md-3 px-md-2 order-first order-md-last'>
+<div class='d-flex d-md-block flex-fill' id='hexlet-ide-buttons'></div>
+<a class="btn btn-light border py-3 py-md-2 mb-md-2 d-flex flex-fill align-items-center justify-content-center justify-content-md-start rounded-0" data-bs-toggle="modal" data-bs-target="#readme-modal" href="#readme-modal"><span class='fal fa-tasks fa-fw'></span>
+<span class='d-none d-md-inline-block ms-2'>Задание</span>
+</a><a class="btn btn-light border py-3 py-md-2 d-flex mb-md-2 flex-fill align-items-center justify-content-center justify-content-md-start rounded-0" data-confirm="ВНИМАНИЕ! Ваш код будет удален. Уверены, что хотите сбросить текущий прогресс и вернуть упражнение в начальное состояние?" data-bs-toggle="tooltip" title="Нажмите «Сброс», чтобы получить самую свежую версию упражнения." data-bs-placement="top" rel="nofollow" data-method="delete" href="/instances/5132151"><span class='fal fa-fast-backward fa-fw'></span>
+<span class='d-none d-md-inline-block ms-2'>Сброс</span>
+</a><span class='d-flex flex-fill mb-md-2' id='hexlet-challenge-solution'>
+<a class="btn btn-light border py-3 py-md-2 d-flex flex-fill align-items-center justify-content-center justify-content-md-start rounded-0" href="#"><span class='fal fa-life-ring fa-fw'></span>
+<span class='d-none d-md-inline-block ms-2'>Подсказка</span>
+</a></span>
+<span class='d-none d-lg-flex flex-fill mb-md-2' id='hexlet-challenge-ide-guide'>
+<a class="btn btn-light border py-3 py-md-2 d-flex flex-fill align-items-center justify-content-center justify-content-md-start rounded-0" href="#"><span class='fal fa-question-circle fa-fw'></span>
+<span class='d-none d-md-inline-block ms-2'>Памятка</span>
+</a></span>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden='true' aria-labelledby='coursenav-modal' class='modal fade' id='coursenav-modal' role='dialog' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<h6 class='modal-title'>
+<a class="text-decoration-none" href="/courses/html">Основы HTML, CSS и веб-дизайна</a>
+</h6>
+<button aria-label='Закрыть' class='btn-close' data-bs-dismiss='modal'></button>
+</div>
+<div class='modal-body scrollable px-4'>
+<div class='mb-3'>
+<span class=''>
+1.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/intro/theory_unit">Верстальщик vs. веб-дизайнер</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/intro/theory_unit">теория</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+2.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/first_step/theory_unit">Знакомство с HTML</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/first_step/theory_unit">теория</a>
+</span>
+<span class='mx-1'>/</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/first_step/quiz_unit">тесты</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+3.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/html_terms/theory_unit">Элементы, теги и атрибуты</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/html_terms/theory_unit">теория</a>
+</span>
+<span class='mx-1'>/</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/html_terms/quiz_unit">тесты</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+4.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/page_structure/theory_unit">Структура страницы</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/page_structure/theory_unit">теория</a>
+</span>
+<span class='mx-1'>/</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/page_structure/quiz_unit">тесты</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+5.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/css/theory_unit">Основы CSS</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/css/theory_unit">теория</a>
+</span>
+<span class='mx-1'>/</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/css/quiz_unit">тесты</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+6.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/devtools/theory_unit">Chrome DevTools</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/devtools/theory_unit">теория</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+7.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/cascade/theory_unit">Каскад</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/cascade/theory_unit">теория</a>
+</span>
+<span class='mx-1'>/</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/cascade/quiz_unit">тесты</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+8.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/divs/theory_unit">div, span и display</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/divs/theory_unit">теория</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class='fw-bolder'>
+9.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/grouping/theory_unit">Правило близости</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class='text-decoration-line-through'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/grouping/theory_unit">теория</a>
+</span>
+<span class='mx-1'>/</span>
+<span class='text-decoration-line-through fw-bolder'>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/grouping/exercise_unit">упражнение</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+10.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/github/theory_unit">Размещение на GitHub Pages</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class=''>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/github/theory_unit">теория</a>
+</span>
+</span>
+</div>
+<div class='mb-3'>
+<span class=''>
+11.
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/social/theory_unit">Интеграция с соц. сетями и семантический веб</a>
+</span>
+<span class='small d-block'>
+<span class='me-2'>↳</span>
+<span class=''>
+<a class="text-decoration-none text-dark" href="/courses/html/lessons/social/theory_unit">теория</a>
+</span>
+</span>
+</div>
+</div>
+<div class='modal-footer'>
+<button class='btn btn-outline-info' data-bs-dismiss='modal'>Закрыть</button>
+</div>
+</div>
+</div>
+</div>
+
+<div aria-hidden='true' aria-labelledby='exampleModalLabel' class='modal fade' id='readme-modal' role='dialog'>
+<div class='modal-dialog modal-lg'>
+<div class='modal-content'>
+<div class='modal-header'>
+<h4 class='modal-title'>Задание</h4>
+<button aria-label='Close' class='btn-close' data-bs-dismiss='modal'></button>
+</div>
+<div class='modal-body scrollable'>
+<h2 id="index-html">index.html</h2><p>Создайте HTML-страницу с резюме. Вот что примерно должно получиться:</p><p><img src="https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6Ijk4OGNjYWM4NzY1OWE2NmQ0MjYxNTQ5YmVmNjViN2RmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=ece7d60c58c2881ff12986619c3572878e05fe218f883cae21b62e6389e9ddb2" title="" alt="Резюме разработчика" class="px-2 px-md-3 px-lg-4 px-xl-5 img-fluid" loading="lazy"></p><p>Требования:</p>
+<ol>
+<li>Указана кодировка страницы &quot;UTF-8&quot;.</li>
+<li>Подключен файл со стилями при помощи <code>link</code> внутри <code>head</code></li>
+<li>Указан заголовок (title).</li>
+<li>Внутри <code>body</code> три div-элемента с разными id: <code>#header</code>, <code>#main</code> и <code>#footer</code>.
+
+<ul>
+<li>Внутри <code>#header</code> три элемента: <code>h1</code>, <code>h2</code> с классом <code>header-title</code> и абзац <code>p</code>.
+
+<ol>
+<li>В заголовке первого уровня — имя и фамилия</li>
+<li>В заголовке второго уровня — специальность</li>
+<li>В параграфе — две ссылки:
+
+<ol>
+<li>email-адрес (используйте формат ссылки <code>href=&quot;mailto:xx@yy.zz&quot;</code>)</li>
+<li>адрес вашего сайта или блога (если у вас их нет, то можете дать ссылку на профиль в соц. сети или Моём Круге)</li>
+</ol></li>
+</ol></li>
+<li>Внутри <code>#main</code> короткий вводный текст (опционально) и несколько секций: &quot;Опыт работы&quot;, &quot;Образование&quot;, &quot;Другие навыки и увлечения&quot;. <strong>Каждая секция начинается с заголовка второго уровня</strong>, и содержит несколько пунктов. В каждом пункте — список. См. пример на скриншоте.</li>
+<li>Внутри <code>#footer</code> — имя, адрес, телефон и email.</li>
+</ul></li>
+</ol>
+<h2 id="style-css">style.css</h2><p>При оформлении учитывайте правило близости. Помните: внутренние расстояния должны быть меньше внешних.</p><p>(Под отступом всегда подразумевается margin).</p><p>Задайте стили в файле <code>style.css</code>:</p>
+<ol>
+<li>У всех абзацев отступ снизу 12 пикселей.</li>
+<li>Заголовки первых трёх уровней: вес шрифта 400</li>
+<li>У заголовка первого уровня:
+
+<ul>
+<li>размер шрифта 36 пикселей;</li>
+<li>отступ снизу 0.</li>
+</ul></li>
+<li>У заголовка второго уровня:
+
+<ul>
+<li>размер шрифта 32 пикселя;</li>
+<li>граница снизу толщиной 1 пиксель серого цвета;</li>
+<li><strong>отступ снизу 8 пикселей</strong>.</li>
+</ul></li>
+<li>У заголовка второго уровня <code>.header-title</code> в <code>#header</code>:
+
+<ul>
+<li>размер шрифта 18 пикселей;</li>
+<li>отсутствует граница снизу. Используйте значение <code>none</code> для этого;</li>
+<li><strong>отступ снизу 10 пикселей</strong>.</li>
+</ul></li>
+<li>У <code>#header</code>:
+
+<ul>
+<li>отступ снизу 32 пикселя</li>
+<li>выравнивание текста по центру</li>
+</ul></li>
+<li>У <code>#footer</code>:
+
+<ul>
+<li>отступ сверху 64 пикселя</li>
+<li>выравнивание текста по центру</li>
+</ul></li>
+</ol>
+<h3 id="vazhno-validnost">ВАЖНО: Валидность</h3><p>HTML-страница может выглядеть нормально, но содержать ошибки. Корректность (или валидность) HTML-кода можно проверить с помощью специальных утилит или сервисов. Некорректный HTML скорее всего не будет принят нашей системой проверки (тестами).</p><p>Воспользуйтесь <a href="https://validator.w3.org/nu/#textarea" target="_blank" rel="nofollow">валидатором w3</a> чтобы удостовериться, что ваша страница полностью удовлетворяет правилам спецификации HTML.</p>
+<div class='alert alert-info'>
+<span class="big">80%</span> пользователей решило эту задачу самостоятельно
+</div>
+</div>
+<div class='modal-footer'>
+<button class='btn btn-outline-info' data-bs-dismiss='modal'>Закрыть</button>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
